@@ -12,9 +12,9 @@ for letter in file :
     if letter in '<>+-[].,' :
         new_code += letter
 
-print("#######INITIAL CODE#######\n", file, "\n")
+print("#######INITIAL CODE#######\n" + file + "\n")
 
-print("########FINAL CODE########\n", new_code, "\n")
+print("########FINAL CODE########\n" + new_code + "\n")
 
 print("len input:", len(file))
 print("len output:", len(new_code))
