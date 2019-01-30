@@ -1,15 +1,17 @@
 # brainfuck
-to run a file
+to run a file <br>
 ```BASH
-python3 bfi.py yourfile
+python3 bfi.py yourfile.bf
 ```
-to make a file one line
+to make a file one line <br>
 ```BASH
-python3 one_line_bf.py input_file output_file
+python3 one_line_bf.py input_file.bf output_file.bf
 ```
-to make a file easy to read
+to make a file easy to read <br>
 ```BASH
-python3 make_bf_easy_to_read.py input_file output_file
+python3 make_bf_easy_to_read.py input_file.bf output_file.bf
 ```
-
-
+to create a .asm file <br>
+```BASH
+python3 translator.py input_file.bf output_file.asm
+```
