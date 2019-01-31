@@ -38,6 +38,16 @@ print :
     int 0x80
     ret
 
+; ,
+input :
+    mov eax, 3
+    mov ebx, 0
+    mov ecx, [memp]
+    add ecx, memory
+    mov edx, 1
+    int 0x80
+    ret
+
 end_prg :
     mov eax, 1
     mov ebx, 0

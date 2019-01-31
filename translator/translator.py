@@ -38,6 +38,8 @@ def translator(start, stop) :
             output += '\n\tcall memorym'
         elif file[i] == '.' :
             output += '\n\tcall print'
+        elif file[i] == ',' :
+            output += '\n\tcall input'
         elif file[i] == '[' :
             loop_name = nb_to_label(loop_count)
             loop_count += 1
@@ -75,4 +77,4 @@ if __name__ == '__main__' :
     f = open(sys.argv[2], 'w')
     f.write(output)
     f.close()
-    #os.system('make')
+    os.system('make')
