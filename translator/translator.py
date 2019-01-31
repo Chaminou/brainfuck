@@ -75,4 +75,4 @@ if __name__ == '__main__' :
     f = open(sys.argv[2], 'w')
     f.write(output)
     f.close()
-    os.system('make')
+    #os.system('make')
